@@ -4,3 +4,6 @@ Random bits and pieces for the keyboard that I use.
 
 - Based off of the firmware (https://github.com/a741725193/zmk-sofle) from [my keyboard vendor](https://www.aliexpress.com/item/1005008041620706.html?spm=a2g0o.productlist.main.2.125cNiKHNiKHzl&algo_pvid=b1d64f0e-70c2-4da6-8b24-793b084d01dc&algo_exp_id=b1d64f0e-70c2-4da6-8b24-793b084d01dc-1&pdp_ext_f=%7B%22order%22%3A%22455%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21AUD%2146.94%2132.39%21%21%21223.74%21154.39%21%40210311c217736466334762090ec73a%2112000047714976692%21sea%21AU%213862549939%21X%211%210%21n_tag%3A-29919%3Bd%3A1e503c50%3Bm03_new_user%3A-29895&curPageLogUid=92DknP5xBJeS&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008041620706%7C_p_origin_prod%3A), which is a variant of the Eyelash Sofle
 - I highly recommend using [Nick Coutsos' keymap-editor](https://nickcoutsos.github.io/keymap-editor/) to view and change key bindings, layers, and behaviours, if you want to upstream them
+
+## Renders
+![render](./keymap-drawer/eyelash_sofle.svg)
