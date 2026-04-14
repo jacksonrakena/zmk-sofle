@@ -55,8 +55,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&td_media'
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
   - '1'
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
