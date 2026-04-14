@@ -178,7 +178,9 @@ esac
 echo ""
 if [ "$failed" -eq 0 ]; then
     ok "Done in ${SECONDS}s. Firmware files:"
-    ls -lh "$FIRMWARE_DIR"/*.uf2 "$FIRMWARE_DIR"/*.bin 2>/dev/null | awk '{print "   " $NF " (" $5 ")"}'
+    for f in "$FIRMWARE_DIR"/*.uf2 "$FIRMWARE_DIR"/*.bin; do
+        [ -f "$f" ] && echo "   $f ($(du -h "$f" | cut -f1))"
+    done
 else
     err "Build failed after ${SECONDS}s."
     exit 1
