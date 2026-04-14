@@ -16,21 +16,8 @@ endif # BOARD_EYELASH_SOFLE_LEFT
 
 if BOARD_EYELASH_SOFLE_LEFT || BOARD_EYELASH_SOFLE_RIGHT
 
-config BOARD_ENABLE_DCDC
-    bool "Enable DCDC mode"
-    select SOC_DCDC_NRF52X
-    default y
-
-config BOARD_ENABLE_DCDC_HV
-    bool "Enable High Voltage DCDC converter"
-    default y
-    select SOC_DCDC_NRF52X_HV
-
 config ZMK_SPLIT
     default y
-
-config BT_CTLR
-    default BT
 
 if USB
 

@@ -4,3 +4,5 @@ modules/
 tools/
 .west/
 .zmk/
+.build_cache/
+firmware/
