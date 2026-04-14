@@ -155,7 +155,7 @@
 &trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
 
-            display-name = "Bt";
+            display-name = "Conn";
             sensor-bindings = <&scroll_encoder>;
         };
 
